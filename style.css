@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  background: #1a1a1a;
+  color: white;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+#toolbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 200px;
+  background: #111;
+  padding: 8px;
+  overflow-y: auto;
+}
+
+.tool {
+  background: #222;
+  border: 1px solid #333;
+  padding: 6px;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+
+.tool:hover {
+  background: #333;
+}
+
+canvas {
+  position: absolute;
+  left: 200px;
+  top: 0;
+}
